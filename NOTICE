@@ -1,0 +1,19 @@
+Shinyfly
+Copyright (C) 2026 Bruno Henrryke Marcelino de Souza
+
+Este produto contém:
+
+1. Código de autoria declarada de Bruno Henrryke Marcelino de Souza, licenciado sob a GNU General Public License versão 3 (GPL-3.0), conforme o arquivo LICENSE. Inclui as partes derivadas dos projetos Myspoti e Spotui, cuja criação o titular declara.
+
+2. Componentes de terceiros, cada um com seus próprios titulares, avisos e licenças, identificados em THIRD_PARTY_NOTICES.md. Esses componentes não são de Bruno Henrryke Marcelino de Souza e não passam a ser cobertos pelo aviso de autoria acima.
+
+3. Textos de licenças de componentes incorporados ou referenciados estão em licenses/, incluindo Apache-2.0, MIT do liquid_glass_easy, MPL-2.0, avisos do Glide e Rhino, Inter OFL e Manrope OFL. A existência de um texto de licença não significa que todos os componentes transitivos tenham sido inventariados.
+
+4. Os cabeçalhos "Myspoti (github.com/kota-zo/myspoti) — Reuse requires credit" são mantidos nos arquivos de origem Myspoti e indicam procedência, sem substituir os avisos de copyright atuais.
+
+Consulte THIRD_PARTY_NOTICES.md para atribuições, versões e pendências de verificação.
+
+4. O aviso MIT integral do modelo Beat This! est? em licenses/Beat-This-MIT.txt. O pacote lossless-flac.zip mant?m seu LICENSE GPLv3 interno e precisa de confirma??o da origem/titular antes da redistribui??o.
+
+Retifica??o de proced?ncia (V14): o titular confirmou que criou app/src/main/assets/extensions/lossless-flac.zip (incluindo os arquivos internos), app/src/main/res/drawable/album.jpeg e app/src/main/assets/silent.mp3. A extens?o conserva integralmente seu LICENSE GPLv3 interno. Esta declara??o n?o altera nem substitui a licen?a. Consulte PROVENANCE.md e THIRD_PARTY_NOTICES.md.
+
