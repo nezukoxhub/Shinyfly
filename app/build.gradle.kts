@@ -155,6 +155,8 @@ dependencies {
     implementation(libs.androidx.appcompat)
     implementation(libs.androidx.webkit)
     implementation(libs.androidx.media)
+    implementation("net.openid:appauth:0.11.1")
+    implementation("androidx.activity:activity-ktx:1.9.3")
 
 
     // Jetpack Compose
