@@ -50,6 +50,7 @@ android {
         // CI release builds pass the tag's version (-PappVersionName / -PappVersionCode).
         versionCode = (findProperty("appVersionCode") as String?)?.toIntOrNull() ?: 202
         versionName = version
+        manifestPlaceholders["appAuthRedirectScheme"] = "shinyfly"
         // GitHub "owner/repo" whose releases the app checks for updates; empty = off
         // (local builds). CI sets it to the repository it builds.
         buildConfigField("String", "UPDATE_REPO", "\"${(findProperty("updateRepo") as String?) ?: System.getenv("MYSPOTI_UPDATE_REPO") ?: ""}\"")
