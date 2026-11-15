@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <queries>
+        <intent>
+            <action android:name="android.support.customtabs.action.CustomTabsService" />
+        </intent>
+    </queries>
+
     <application>
         <!-- Debug builds only: tools/playback_test.py drives the player through it. DUMP is held
              by the adb shell, not by other apps. -->
@@ -11,5 +17,16 @@
                 <action android:name="${applicationId}.TEST" />
             </intent-filter>
         </receiver>
+
+        <!-- BETA: tela de teste do login pelo navegador. Só existe no build de debug. -->
+        <activity
+            android:name="com.music.spotui.connect.beta.BetaLoginActivity"
+            android:exported="true"
+            android:label="Login beta">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 </manifest>
